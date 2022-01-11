@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 27 27" fill="none">
+    <style type="text/css">
+        path.loader_line1 {
+            animation: fadeIn1;
+            animation-duration: 1.2s;
+            animation-timing-function: ease-in;
+            animation-delay: 0;
+            animation-fill-mode: forwards;
+            animation-iteration-count: infinite;
+        }
+
+        path.loader_line2 {
+            animation: fadeIn2;
+            animation-duration: 1.2s;
+            animation-timing-function: ease-in;
+            animation-fill-mode: forwards;
+            animation-iteration-count: infinite;
+        }
+
+        path.loader_line3 {
+            animation: fadeIn3;
+            animation-duration: 1.2s;
+            animation-timing-function: ease-in;
+            animation-fill-mode: forwards;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes fadeIn1 {
+            0%{
+                fill: #3e3e3e;
+            }
+
+            50%, 100%{
+                fill: #E9BD9C;
+            }
+        }
+        @keyframes fadeIn2 {
+            0%, 20%{
+                fill: #3e3e3e;
+            }
+
+            70%, 100%{
+                fill: #D88759;
+            }
+        }
+        @keyframes fadeIn3 {
+            0%, 40%{
+                fill: #3e3e3e;
+            }
+
+            80%, 100%{
+                fill: #CA5122;
+            }
+        }
+    </style>
+
+
+
+
+
+<path class="loader_line3" d="M18.303 20.4567H16.231L20.701 4.67334C20.9813 3.68335 21.885 3 22.9139 3H24.986L20.5159 18.7834C20.2356 19.7734 19.3319 20.4567 18.303 20.4567Z" fill="#3e3e3e"/>
+<path class="loader_line2" d="M12.188 20.4567H10.116L14.586 4.67334C14.8664 3.68335 15.7701 3 16.799 3H18.871L14.401 18.7834C14.1206 19.7734 13.2169 20.4567 12.188 20.4567Z" fill="#3e3e3e"/>
+<path class="loader_line1" d="M6.07207 20.4567H4L8.47007 4.67334C8.7504 3.68335 9.65411 3 10.6831 3H12.7551L8.28499 18.7834C8.00465 19.7734 7.10096 20.4567 6.07207 20.4567Z" fill="#3e3e3e"/>
+</svg>
